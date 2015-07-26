@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78924" started-at="2015-07-24T05:05:25Z" finished-at="2015-07-24T05:06:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="78924" started-at="2015-07-24T05:05:25Z" finished-at="2015-07-24T05:06:44Z">
+      <class name="fwDriver_All.fwDriver">
+        <test-method status="PASS" signature="init_set()[pri:0, instance:fwDriver_All.fwDriver@49e4cb85]" name="init_set" is-config="true" duration-ms="40" started-at="2015-07-24T10:35:26Z" finished-at="2015-07-24T10:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_set -->
+        <test-method status="PASS" signature="start_fwDriverNew()[pri:0, instance:fwDriver_All.fwDriver@49e4cb85]" name="start_fwDriverNew" duration-ms="78654" started-at="2015-07-24T10:35:26Z" finished-at="2015-07-24T10:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_fwDriverNew -->
+        <test-method status="PASS" signature="start_fwDriver()[pri:0, instance:fwDriver_All.fwDriver@49e4cb85]" name="start_fwDriver" duration-ms="56586" started-at="2015-07-24T10:35:26Z" finished-at="2015-07-24T10:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_fwDriver -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:fwDriver_All.fwDriver@49e4cb85]" name="closeAll" is-config="true" duration-ms="2" started-at="2015-07-24T10:36:44Z" finished-at="2015-07-24T10:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- fwDriver_All.fwDriver -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -7,11 +7,6 @@
   <description>Selenium Frameworks</description>
 <dependencies>
 <dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.02</version>
-</dependency>
-<dependency>
  <groupId>com.applitools</groupId>
  <artifactId>eyes-selenium-java</artifactId>
  <version>RELEASE</version>
@@ -23,6 +18,12 @@
 </dependency>
 
 <dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.0</version>
+</dependency>
+
+<dependency>
 	<groupId>org.sikuli</groupId>
 	<artifactId>sikuli-api</artifactId>
 	<version>1.2.0</version>
@@ -31,16 +32,24 @@
   <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>2.46.0</version>
+        <version>3.4.0</version>
   </dependency>
-
   <dependency>
 	<groupId>org.apache.poi</groupId>
 	<artifactId>poi</artifactId>
 	<version>3.12</version>
   </dependency>
-
-
+  <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-firefox-driver</artifactId>
+        <version>3.4.0</version>
+    </dependency>  
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.10</version>
+</dependency>
 
 </dependencies>
 </project>
